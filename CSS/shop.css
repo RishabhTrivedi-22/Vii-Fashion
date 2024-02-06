@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+/** <-- Pre-requisite styles --> **/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'League Spartan', sans-serif;
+}
+
+h1 {
+  font-size: 60px;
+  line-height: 64px;
+  color: #222;
+}
+h2 {
+  font-size: 50px;
+  line-height: 54px;
+  color: #222;
+}
+h4 {
+  font-size: 24px;
+  color: #222;
+}
+h6 {
+  font-weight: 700;
+  color: #222;
+}
+p {
+  font-size: 18px;
+  color: #717171ba;
+  /* color: #465b52; */
+  margin: 15px 0 20px 0;
+}
+.section-p1 {
+  padding: 40px 80px;
+}
+.section-m1 {
+  margin: 40px 0;
+}
+body {
+  width: 100%;
+}
+
+/** <-- BannershopPg-sect styles -->**/
+
+#banner-shopPg {
+  text-align: center;
+  background: url(/Images/banners/banner3.jpeg);
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 40vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#banner-shopPg .text h2,
+#banner-shopPg .text p{
+  color: #fff;
+}
+.pagination {
+  display: flex;
+  align-items: center;
+  margin-top: 20px;
+}
+.pagination a {
+  text-decoration: none;
+  margin-right: 5px;
+}
+.pagination a button {
+  padding: 10px 14px;
+  border: none;
+  outline: none;
+  border-radius: 50%;
+  background-color: #088178;
+  color: #fff;
+  text-align: center;
+  cursor: pointer;
+}
+.pagination a i {
+  font-size: 35px;
+  color: #088178;
+  cursor: pointer;
+}

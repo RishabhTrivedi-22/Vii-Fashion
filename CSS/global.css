@@ -212,6 +212,13 @@ nav .logo-link {
   text-align: center;
 }
 
+#productLayout {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
 .product-conatiner {
   width: 100%;
   display: flex;
@@ -595,6 +602,7 @@ nav .logo-link {
   height: 40px;
   border: 1px solid #a8bb9e;
   outline: none;
+  border-radius: 5px;
 }
 
 .footerList-link li a .appStore {
