@@ -56,7 +56,7 @@ body {
   align-items: center;
 }
 #banner-shopPg .text h2,
-#banner-shopPg .text p{
+#banner-shopPg .text {
   color: #fff;
 }
 .pagination {
