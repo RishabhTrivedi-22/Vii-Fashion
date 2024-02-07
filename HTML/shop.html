@@ -11,18 +11,19 @@
   <title>Vii - Your Fashion Adda!</title>
 </head> 
 <body>
+  <!--* Navbar Section *-->
   <section id="header">
     <nav>
       <a href="#" class="logo-link"><img class="logo-img" src="/Images/logo.png" alt="Vii - Logo"></a>
 
       <div class="link-div">
         <ul id="nav-link-container">
-          <li><a class="active-link-page" href="home.html">Home</a></li>
-          <li><a href="shop.html">Shop</a></li>
-          <li><a href="blog.html">Blog</a></li>
-          <li><a href="about.html">About</a></li>
-          <li><a href="contact.html">Contact Us</a></li>
-          <li><a href="cart.html"><i class="uil uil-shopping-bag"></i></a></li>
+          <li><a class="navLinks" href="home.html">Home</a></li>
+          <li><a class="navLinks active-link-page" href="shop.html">Shop</a></li>
+          <li><a class="navLinks" href="#">About</a></li>
+          <li><a class="navLinks" href="#">Contact Us</a></li>
+          <li><a class="navLinks" href="#"><i class='bx bxs-user'></i></a></li>
+          <li><a class="navLinks" href="#"><i class="uil uil-shopping-bag"></i></a></li>
         </ul>
       </div>
     </nav>
@@ -37,6 +38,53 @@
   </section>
 
   <section id="productLayout" class="section-p1 featuredProd">
+
+    <!--* Product Desc Box Section *-->  
+    <section id="productDescBox" >
+      <div class="descBox">
+        <i class='bx bxs-chevron-left backBtn'></i>
+        <div class="prodImg-container">
+          <div class="mainImg"></div>
+          <div class="secImg"></div>
+          <div class="thirdImg"></div>
+          <div class="fourthImg"></div>
+          <div class="fifthImg"></div>
+        </div>
+
+        <div class="prodDesc-container">
+  
+          <h5>Home/T-shirt</h5>
+          <h3>Men's Fashion T Shirt</h3>
+          <h2>$50.30</h2>
+  
+          <div class="rating-box">
+            <i class='bx bxs-star'></i>
+            <i class='bx bxs-star'></i>
+            <i class='bx bxs-star'></i>
+            <i class='bx bxs-star'></i>
+            <i class='bx bxs-star-half'></i>
+          </div>
+
+          <select name="size" id="sizeSelect" aria-placeholder="Select size">
+            <option value="default" selected>Select Size</option>
+            <option value="small">S</option>
+            <option value="medium">M</option>
+            <option value="large">L</option>
+            <option value="extralarge">XL</option>
+          </select>
+
+          <div class="quantDiv">
+            
+            <input type="number" placeholder="No.">
+          <button class="prodPg-cart-btn">Add to cart <i class="uil uil-shopping-cart"></i></button>
+          </div>
+  
+          <h3>Product Description</h3>
+          <h5>The Gildan Ultra Cotton T-shirtis made from substantial 6.0 oz.per sq.yd. fabric constructed from 100% cotton. The classic fit, preshrink jersey knit provides unmatching comfort wiwth each wear. Featuring a taped neck and shoulder; and a seamless double needle collar, and available in a range of colors and designs. It offers it all in the head-turning package.</h5>
+  
+        </div>
+      </div>
+    </section>
 
     <div class="product-conatiner">
       <div class="product">

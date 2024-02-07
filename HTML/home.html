@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,25 +9,28 @@
   <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.8/css/line.css">
   <link rel="stylesheet" href="/CSS/global.css">
   <title>Vii - Your Fashion Adda!</title>
-</head> 
+</head>
+
 <body>
+  <!--* Navbar Section *-->
   <section id="header">
     <nav>
       <a href="#" class="logo-link"><img class="logo-img" src="/Images/logo.png" alt="Vii - Logo"></a>
 
       <div class="link-div">
         <ul id="nav-link-container">
-          <li><a class="active-link-page" href="home.html">Home</a></li>
-          <li><a href="shop.html">Shop</a></li>
-          <li><a href="blog.html">Blog</a></li>
-          <li><a href="about.html">About</a></li>
-          <li><a href="contact.html">Contact Us</a></li>
-          <li><a href="cart.html"><i class="uil uil-shopping-bag"></i></a></li>
+          <li><a class="navLinks active-link-page" href="home.html">Home</a></li>
+          <li><a class="navLinks" href="shop.html">Shop</a></li>
+          <li><a class="navLinks" href="#">About</a></li>
+          <li><a class="navLinks" href="#">Contact Us</a></li>
+          <li><a class="navLinks" href="#"><i class='bx bxs-user'></i></a></li>
+          <li><a class="navLinks" href="#"><i class="uil uil-shopping-bag"></i></a></li>
         </ul>
       </div>
     </nav>
   </section>
 
+  <!--* Hero Section *-->
   <section id="hero-section">
     <h4>Trade-in-offer</h4>
     <h2>Super value deals</h2>
@@ -35,6 +39,7 @@
     <button class="shopNow-btn">Shop Now</button>
   </section>
 
+  <!--* Features Section *-->
   <section id="feature-section" class="section-p1">
     <div class="feat-box">
       <img src="/Images/features/f1.png" alt="Free Shipping">
@@ -62,7 +67,10 @@
     </div>
   </section>
 
+
+  <!--* Featured Product Layout Section *-->
   <section id="productLayout" class="section-p1 featuredProd">
+
     <h2>Featured Products</h2>
     <p>Summer Collection - new modern designs</p>
 
@@ -212,14 +220,67 @@
         </div>
       </div>
     </div>
+
+    <!--* Product Desc Box Section *-->
+    <section id="productDescBox">
+      <div class="descBox">
+        <i class='bx bxs-chevron-left backBtn'></i>
+        <div class="prodImg-container">
+          <div class="mainImg"></div>
+          <div class="secImg"></div>
+          <div class="thirdImg"></div>
+          <div class="fourthImg"></div>
+          <div class="fifthImg"></div>
+        </div>
+
+        <div class="prodDesc-container">
+
+          <h5>Home/T-shirt</h5>
+          <h3>Men's Fashion T Shirt</h3>
+          <h2>$50.30</h2>
+
+          <div class="rating-box">
+            <i class='bx bxs-star'></i>
+            <i class='bx bxs-star'></i>
+            <i class='bx bxs-star'></i>
+            <i class='bx bxs-star'></i>
+            <i class='bx bxs-star-half'></i>
+          </div>
+
+          <select name="size" id="sizeSelect" aria-placeholder="Select size">
+            <option value="default" selected>Select Size</option>
+            <option value="small">S</option>
+            <option value="medium">M</option>
+            <option value="large">L</option>
+            <option value="extralarge">XL</option>
+          </select>
+
+          <div class="quantDiv">
+
+            <input type="number" placeholder="No.">
+            <button class="prodPg-cart-btn">Add to cart <i class="uil uil-shopping-cart"></i></button>
+          </div>
+
+          <h3>Product Description</h3>
+          <h5>The Gildan Ultra Cotton T-shirtis made from substantial 6.0 oz.per sq.yd. fabric constructed from 100%
+            cotton. The classic fit, preshrink jersey knit provides unmatching comfort wiwth each wear. Featuring a
+            taped neck and shoulder; and a seamless double needle collar, and available in a range of colors and
+            designs. It offers it all in the head-turning package.</h5>
+
+        </div>
+      </div>
+    </section>
+
   </section>
 
+  <!--* Banner1 Section *-->
   <section id="banner-1" class="section-m1 section-p1">
     <h4>Latest Offer</h4>
     <h2>Up to <span>70% OFF!</span> - All t-Shirts & Accessories</h2>
     <a href="shop.html"><button class="explore-btn">Explore more</button></a>
   </section>
 
+  <!--* New Arrival Product Layout Section *-->
   <section id="productLayout" class="section-p1  newArrival">
     <h2>New Arrivals</h2>
     <p>Summer Collection - new modern designs</p>
@@ -370,8 +431,59 @@
         </div>
       </div>
     </div>
+
+    <!--* Product Desc Box Section *-->
+    <section id="productDescBox2">
+      <div class="descBox">
+        <i class='bx bxs-chevron-left backBtn'></i>
+        <div class="prodImg-container">
+          <div class="mainImg"></div>
+          <div class="secImg"></div>
+          <div class="thirdImg"></div>
+          <div class="fourthImg"></div>
+          <div class="fifthImg"></div>
+        </div>
+
+        <div class="prodDesc-container">
+
+          <h5>Home/T-shirt</h5>
+          <h3>Men's Fashion T Shirt</h3>
+          <h2>$50.30</h2>
+
+          <div class="rating-box">
+            <i class='bx bxs-star'></i>
+            <i class='bx bxs-star'></i>
+            <i class='bx bxs-star'></i>
+            <i class='bx bxs-star'></i>
+            <i class='bx bxs-star-half'></i>
+          </div>
+
+          <select name="size" id="sizeSelect2" aria-placeholder="Select size">
+            <option value="default" selected>Select Size</option>
+            <option value="small">S</option>
+            <option value="medium">M</option>
+            <option value="large">L</option>
+            <option value="extralarge">XL</option>
+          </select>
+
+          <div class="quantDiv">
+
+            <input type="number" placeholder="No.">
+            <button class="prodPg-cart-btn">Add to cart <i class="uil uil-shopping-cart"></i></button>
+          </div>
+
+          <h3>Product Description</h3>
+          <h5>The Gildan Ultra Cotton T-shirtis made from substantial 6.0 oz.per sq.yd. fabric constructed from 100%
+            cotton. The classic fit, preshrink jersey knit provides unmatching comfort wiwth each wear. Featuring a
+            taped neck and shoulder; and a seamless double needle collar, and available in a range of colors and
+            designs. It offers it all in the head-turning package.</h5>
+
+        </div>
+      </div>
+    </section>
   </section>
 
+  <!--* Banner2 Section *-->
   <section id="banner2" class="section-m1 section-p1">
 
     <div class="grid-container">
@@ -403,12 +515,13 @@
 
   </section>
 
+  <!--* Newsletter Section *-->
   <section id="newsLetter" class="section-m1 section-p1">
     <div class="newsDetails">
       <h3>Sign Up for our Newsletters</h3>
       <h5>Get e-mail updatesabout our latest shop and <span>special offers</span></h5>
     </div>
-    
+
     <div class="emailInput">
       <div class="row">
         <input type="email" name="" id="" placeholder="Enter your email address">
@@ -417,12 +530,13 @@
     </div>
   </section>
 
+  <!--* Footer Section *-->
   <section id="footer" class="section-m1 section-p1">
     <div class="footerInfo">
 
       <div class="footerColumn">
-          <a href="#" class="footer-logo-link"><img src="/Images/logo.png" alt=""></a>
-       
+        <a href="#" class="footer-logo-link"><img src="/Images/logo.png" alt=""></a>
+
         <div class="footerContact">
           <h5 class="headingFooter">Contact Detail</h5>
           <h5 class="descFooter"><span>Address:</span> 562 Wellington Rd., Street32, San Fransisco</h5>
@@ -437,34 +551,58 @@
             <a href=""><i class="fa-brands fa-x-twitter fa-xs"></i></a>
             <a href=""><i class='bx bxl-pinterest'></i></a>
             <a href=""><i class='bx bxl-youtube'></i></a>
-            
+
           </div>
         </div>
       </div>
       <div class="footerColumn">
         <h5 class="headingFooter">About Us</h5>
         <ul class="footerList-link">
-          <li><a href="about.html"><h5 class="descFooter">About us</h5></a></li>
-          <li><a href="#"><h5 class="descFooter">Delivery Information</h5></a></li>
-          <li><a href="#"><h5 class="descFooter">Privacy Policy</h5></a></li>
-          <li><a href="#"><h5 class="descFooter">Terms & Conditions</h5></a></li>
-          <li><a href="contact.html"><h5 class="descFooter">Contact us</h5></a></li>
+          <li><a href="about.html">
+              <h5 class="descFooter">About us</h5>
+            </a></li>
+          <li><a href="#">
+              <h5 class="descFooter">Delivery Information</h5>
+            </a></li>
+          <li><a href="#">
+              <h5 class="descFooter">Privacy Policy</h5>
+            </a></li>
+          <li><a href="#">
+              <h5 class="descFooter">Terms & Conditions</h5>
+            </a></li>
+          <li><a href="contact.html">
+              <h5 class="descFooter">Contact us</h5>
+            </a></li>
       </div>
       <div class="footerColumn">
         <h5 class="headingFooter">My Account</h5>
         <ul class="footerList-link">
-          <li><a href="#"><h5 class="descFooter">Sign In</h5></a></li>
-          <li><a href="cart.html"><h5 class="descFooter">View Cart</h5></a></li>
-          <li><a href="cart.html"><h5 class="descFooter">My Wishlist</h5></a></li>
-          <li><a href="#"><h5 class="descFooter">Track Order</h5></a></li>
-          <li><a href="contact.html"><h5 class="descFooter">Help</h5></a></li>
+          <li><a href="#">
+              <h5 class="descFooter">Sign In</h5>
+            </a></li>
+          <li><a href="cart.html">
+              <h5 class="descFooter">View Cart</h5>
+            </a></li>
+          <li><a href="cart.html">
+              <h5 class="descFooter">My Wishlist</h5>
+            </a></li>
+          <li><a href="#">
+              <h5 class="descFooter">Track Order</h5>
+            </a></li>
+          <li><a href="contact.html">
+              <h5 class="descFooter">Help</h5>
+            </a></li>
       </div>
       <div class="footerColumn">
         <h5 class="headingFooter">Install App</h5>
         <ul class="footerList-link">
-          <li><a href="about.html"><h5 class="descFooter">From App Store or Google Play</h5></a></li>
+          <li><a href="about.html">
+              <h5 class="descFooter">From App Store or Google Play</h5>
+            </a></li>
           <li><a href="#"><button class="appStore"></button> <button class="googleStore"></button></a></li>
-          <li><a href="#"><h5 class="descFooter">Secure Payment Gateways</h5></a></li>
+          <li><a href="#">
+              <h5 class="descFooter">Secure Payment Gateways</h5>
+            </a></li>
           <li><a href="#"><img src="/Images/payments.png" alt=""></a></li>
       </div>
     </div>
@@ -474,7 +612,9 @@
   </section>
 
 
-  
+
+  <!-- ? Scripts -->
   <script src="/Scripts/script.js"></script>
 </body>
+
 </html>
