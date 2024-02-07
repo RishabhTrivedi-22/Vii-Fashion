@@ -21,6 +21,7 @@ productCards2.forEach((card) => {
 backBtn1.addEventListener("click", () => {
   prodDescBox.classList.toggle("active-box");
 })
+
 backBtn2.addEventListener("click", () => {
   prodDescBox2.classList.toggle("active-box");
 })
