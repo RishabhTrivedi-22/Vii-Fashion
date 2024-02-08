@@ -496,6 +496,11 @@ nav .logo-link {
 
 
 /** <-- banner2-sect Styles --> **/
+#banner2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 .grid-container {
   display: grid;
   grid-template-areas: 
@@ -516,7 +521,7 @@ nav .logo-link {
 .tem3,
 .item4,
 .item5 {
-  width: 450px;
+  width: 380px;
 }
 .grid-item h4,
 .grid-item h2,
@@ -595,13 +600,14 @@ nav .logo-link {
 #newsLetter {
   background-image: url(/Images/banners/banner2.png);
   background-color: #041e42;
-  background-repeat: no-repeat;
+  background-repeat: repeat-x;
   background-position: 18% 20%;
   display: flex;
   align-items: center;
   justify-content: space-between;
   margin-bottom: 0;
 }
+
 .newsDetails h3 {
   font-size: 35px;
   color: #fff;
