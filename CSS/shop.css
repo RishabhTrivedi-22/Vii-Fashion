@@ -46,7 +46,7 @@ body {
 
 #banner-shopPg {
   text-align: center;
-  background: url(/Images/banners/banner3.jpeg);
+  background: url(../Images/banners/banner3.jpeg);
   background-size: cover;
   background-position: center;
   width: 100%;

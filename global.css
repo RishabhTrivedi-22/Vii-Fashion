@@ -120,7 +120,7 @@ nav .logo-link {
 /** <-- Hero-sect Styles --> **/
 
 #hero-section {
-  background: url(/Images/hero4-bg.png);
+  background: url(./Images/hero4-bg.png);
   height: 90vh;
   width: 100%;
   background-size: cover;
@@ -141,7 +141,7 @@ nav .logo-link {
 }
 
 .shopNow-btn {
-  background-image: url(/Images/button-bg.png);
+  background-image: url(./Images/button-bg.png);
   background-color: transparent;
   background-repeat: no-repeat;
   border: none;
@@ -257,7 +257,7 @@ nav .logo-link {
 }
 .mainImg {
   grid-area: item1;
-  background: url(/Images/products/p1.jpeg);
+  background: url(./Images/products/p1.jpeg);
   background-position: center;
   background-size: cover;
   width: 350px;
@@ -269,25 +269,25 @@ nav .logo-link {
 }
 .secImg {
   grid-area: item2;
-  background: url(/Images/products/p1.jpeg);
+  background: url(./Images/products/p1.jpeg);
   background-position: center;
   background-size: cover;
 }
 .thirdImg {
   grid-area: item3;
-  background: url(/Images/products/p1.jpeg);
+  background: url(./Images/products/p1.jpeg);
   background-position: center;
   background-size: cover;
 }
 .fourthImg {
   grid-area: item4;
-  background: url(/Images/products/p1.jpeg);
+  background: url(./Images/products/p1.jpeg);
   background-position: center;
   background-size: cover;
 }
 .fifthImg {
   grid-area: item5;
-  background: url(/Images/products/p1.jpeg);
+  background: url(./Images/products/p1.jpeg);
   background-position: center;
   background-size: cover;
 }
@@ -455,7 +455,7 @@ nav .logo-link {
 
 #banner-1 {
   text-align: center;
-  background: url(/Images/banners/banner1.jpeg);
+  background: url(./Images/banners/banner1.jpeg);
   background-size: cover;
   background-position: center;
   width: 100%;
@@ -560,7 +560,7 @@ nav .logo-link {
 
 .item1 {
   grid-area: item1;
-  background: url(/Images/banners/grid1.jpeg);
+  background: url(./Images/banners/grid1.jpeg);
   background-size: cover;
   background-position: center;
   height: 50vh;
@@ -569,7 +569,7 @@ nav .logo-link {
 }
 .item2 {
   grid-area: item2;
-  background-image: url(/Images/banners/grid2.jpeg);
+  background-image: url(./Images/banners/grid2.jpeg);
   background-size: cover;
   background-position: center;
   height: 50vh;
@@ -577,20 +577,20 @@ nav .logo-link {
 }
 .item3 {
   grid-area: item3;
-  background-image: url(/Images/banners/grid3.jpeg);
+  background-image: url(./Images/banners/grid3.jpeg);
   background-size: cover;
   background-position: center;
   
 }
 .item4 {
   grid-area: item4;
-  background-image: url(/Images/banners/grid4.jpeg);
+  background-image: url(./Images/banners/grid4.jpeg);
   background-size: cover;
   background-position: center;
 }
 .item5 {
   grid-area: item5;
-  background-image: url(/Images/banners/grid5.jpeg);
+  background-image: url(./Images/banners/grid5.jpeg);
   background-size: cover;
   background-position: center;
 }
@@ -598,7 +598,7 @@ nav .logo-link {
 /** <-- NewsLetter-sect Styles --> **/
 
 #newsLetter {
-  background-image: url(/Images/banners/banner2.png);
+  background-image: url(./Images/banners/banner2.png);
   background-color: #041e42;
   background-repeat: repeat-x;
   background-position: 18% 20%;
@@ -761,12 +761,12 @@ nav .logo-link {
 }
 
 .footerList-link li a .appStore {
-  background-image: url(/Images/appStore.jpeg);
+  background-image: url(./Images/appStore.jpeg);
   background-size: cover;
   background-position: center;
 }
 .footerList-link li a .googleStore {
-  background-image: url(/Images/googlePlay.jpeg);
+  background-image: url(./Images/googlePlay.jpeg);
   background-size: cover;
   background-position: center;
 }
