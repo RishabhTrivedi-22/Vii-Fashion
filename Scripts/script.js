@@ -5,7 +5,17 @@ const prodDescBox2 = d.querySelector("#productDescBox2");
 const productCards = d.querySelectorAll(".featuredProd .product");
 const productCards2 = d.querySelectorAll(".newArrival .product");
 const backBtn1 = d.querySelector("#productDescBox .backBtn");
+const menuBtn = document.querySelector(".menu-btn");
+const menu = document.querySelector(".menu");
+const menuNav = document.querySelector("#menu-link-container");
+const navItems = document.querySelectorAll("#menu-link-container li");
 const backBtn2 = d.querySelector("#productDescBox2 .backBtn");
+
+
+let showMenu = true;
+menuBtn.addEventListener("click", toggleMenu);
+
+
 
 productCards.forEach((card) => {
   card.addEventListener("click", () => {
@@ -25,3 +35,29 @@ backBtn1.addEventListener("click", () => {
 backBtn2.addEventListener("click", () => {
   prodDescBox2.classList.toggle("active-box");
 })
+
+	
+
+	function toggleMenu() {
+		if (!showMenu) {
+			menuBtn.classList.add("close");
+			menu.classList.add("show");
+			menuNav.classList.add("show");
+			navItems.forEach((item) =>
+				item.classList.add("show"));
+
+			// Reset the menu state
+			showMenu = true;
+		} else {
+			menuBtn.classList.remove("close");
+			menu.classList.remove("show");
+			menuNav.classList.remove("show");
+			navItems.forEach((item) =>
+				item.classList.remove("show"));
+
+			// Reset the menu state
+			showMenu = false;
+		}
+	}
+
+ 
