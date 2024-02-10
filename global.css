@@ -121,7 +121,7 @@ nav .logo-link {
 
 #hero-section {
   background: url(./Images/hero4-bg.png);
-  height: 90vh;
+  height: 90dvh;
   width: 100%;
   background-size: cover;
   background-position: top 25% right 0;
@@ -157,7 +157,8 @@ nav .logo-link {
 
 #feature-section {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
+  gap: 20px;
   align-items: center;
   flex-wrap: wrap;
 }
@@ -372,7 +373,8 @@ nav .logo-link {
   width: 100%;
   display: flex;
   align-items: center;
-  justify-content: space-evenly;
+  justify-content: center;
+  gap: 5px;
   flex-wrap: wrap;
 }
 
@@ -459,11 +461,11 @@ nav .logo-link {
   background-size: cover;
   background-position: center;
   width: 100%;
-  height: 40vh;
+  /* height: 40dvh; */
 }
 #banner-1 h4 {
   color: white;
-  margin: 50px 0 20px;
+  margin: 35px 0 20px;
 }
 #banner-1 h2 {
   color: white;
@@ -500,48 +502,50 @@ nav .logo-link {
   display: flex;
   justify-content: center;
   align-items: center;
-}
-.grid-container {
-  display: grid;
-  grid-template-areas: 
-          'item1 item1 item1 item2 item2 item2'
-          'item3 item3 item4 item4 item5 item5';
+  width: 100%;
+  flex-direction: column;
   gap: 20px;
 }
-
-.grid-item {
-  place-items: center;
-  height: 200px;
-  padding: 20px;
+.row1,
+.row2 {
+  width: 100%;
   display: flex;
-  flex-direction: column;
-  align-items: flex-start;
+  align-items: center;
   justify-content: center;
+  gap: 20px;
 }
-.tem3,
+.item1,
+.item2 {
+  width: 46%;
+  padding: 20px;
+}
+
+.item3,
 .item4,
 .item5 {
-  width: 380px;
+  padding: 20px;
+  width: 30%;
+  height: 200px;
 }
-.grid-item h4,
-.grid-item h2,
-.grid-item h5,
-.grid-item button {
+.row1 h4,
+.row1 h2,
+.row1 h5,
+.row1 button {
   color: #fff;
 }
-.grid-item h3 {
+.row1 h3 {
   color: #d01818;
 }
 
-.grid-item h4 {
+.row1 h4 {
   font-weight: 200;
   margin-bottom: 5px;
 }
-.grid-item h2 {
+.row1 h2 {
   font-weight: 500;
   margin-bottom: 5px;
 }
-.grid-item h5 {
+.row1 h5 {
   font-weight: 400;
   margin-bottom: 10px;
 }
@@ -559,37 +563,32 @@ nav .logo-link {
 }
 
 .item1 {
-  grid-area: item1;
   background: url(./Images/banners/grid1.jpeg);
   background-size: cover;
   background-position: center;
-  height: 50vh;
-  min-width: 580px;
+  height: 50dvh;
+  /* max-width: 580px; */
   
 }
 .item2 {
-  grid-area: item2;
   background-image: url(./Images/banners/grid2.jpeg);
   background-size: cover;
   background-position: center;
-  height: 50vh;
-  min-width: 580px;
+  height: 50dvh;
+  /* max-width: 580px; */
 }
 .item3 {
-  grid-area: item3;
   background-image: url(./Images/banners/grid3.jpeg);
   background-size: cover;
   background-position: center;
   
 }
 .item4 {
-  grid-area: item4;
   background-image: url(./Images/banners/grid4.jpeg);
   background-size: cover;
   background-position: center;
 }
 .item5 {
-  grid-area: item5;
   background-image: url(./Images/banners/grid5.jpeg);
   background-size: cover;
   background-position: center;
