@@ -40,7 +40,24 @@ p {
 }
 body {
   width: 100%;
+  position: relative;
 }
+
+/** <-- Login-box Styles --> **/
+#loginform-sect {
+  top: 3%;
+  border: 1px solid white;
+}
+.formBox form h1 {
+  color: white;
+}
+.input-box {
+  color: white;
+}
+.input-box input {
+  border-bottom: 2px solid white;
+}
+
 
 /** <-- BannershopPg-sect styles -->**/
 

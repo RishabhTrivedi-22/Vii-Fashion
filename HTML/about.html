@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -10,41 +11,108 @@
   <link rel="stylesheet" href="../CSS/about.css">
   <link rel="stylesheet" href="../CSS/responsive.css">
   <title>Vii - Your Fashion Adda!</title>
-</head> 
+</head>
+
 <body>
- <!--* Navbar Section *-->
- <section id="header">
-  <nav>
-    <a href="#" class="logo-link"><img class="logo-img" src="../Images/logo.png" alt="Vii - Logo"></a>
+  <!--* Navbar Section *-->
+  <section id="header">
+    <nav>
+      <a href="#" class="logo-link"><img class="logo-img" src="../Images/logo.png" alt="Vii - Logo"></a>
 
-    <div class="link-div">
-      <ul id="nav-link-container">
-        <li><a class="navLinks" href="../home.html">Home</a></li>
-        <li><a class="navLinks" href="../HTML/shop.html">Shop</a></li>
-        <li><a class="navLinks active-link-page" href="../HTML/about.html">About</a></li>
-        <li><a class="navLinks" href="../HTML/contact.html">Contact Us</a></li>
-        <li><a class="navLinks" href="#"><i class='bx bxs-user'></i></a></li>
-        <li><a class="navLinks" href="#"><i class="uil uil-shopping-bag"></i></a></li>
-      </ul>
-    </div>
-    <div class="menu-btn">
-      <div class="btn-line"></div>
-      <div class="btn-line"></div>
-      <div class="btn-line"></div>
-    </div>
-    <div class="menu">
-      <ul id="menu-link-container">
-        <li><a class="navLinks" href="../home.html">Home</a></li>
-        <li><a class="navLinks" href="../HTML/shop.html">Shop</a></li>
-        <li><a class="navLinks active-link-page" href="../HTML/about.html">About</a></li>
-        <li><a class="navLinks" href="../HTML/contact.html">Contact Us</a></li>
-        <li><a class="navLinks" href="#"><i class='bx bxs-user'></i></a></li>
-        <li><a class="navLinks" href="#"><i class="uil uil-shopping-bag"></i></a></li>
-      </ul>
-    </div>
-</section>
+      <div class="link-div">
+        <ul id="nav-link-container">
+          <li><a class="navLinks" href="../home.html">Home</a></li>
+          <li><a class="navLinks" href="../HTML/shop.html">Shop</a></li>
+          <li><a class="navLinks active-link-page" href="../HTML/about.html">About</a></li>
+          <li><a class="navLinks" href="../HTML/contact.html">Contact Us</a></li>
+          <li><a class="navLinks login-activebtn" href="#"><i class='bx bxs-user'></i></a></li>
+          <li><a class="navLinks" href="#"><i class="uil uil-shopping-bag"></i></a></li>
+        </ul>
+      </div>
+      <div class="menu-btn">
+        <div class="btn-line"></div>
+        <div class="btn-line"></div>
+        <div class="btn-line"></div>
+      </div>
+      <div class="menu">
+        <ul id="menu-link-container">
+          <li><a class="navLinks" href="../home.html">Home</a></li>
+          <li><a class="navLinks" href="../HTML/shop.html">Shop</a></li>
+          <li><a class="navLinks active-link-page" href="../HTML/about.html">About</a></li>
+          <li><a class="navLinks" href="../HTML/contact.html">Contact Us</a></li>
+          <li><a class="navLinks login-activebtn" href="#"><i class='bx bxs-user'></i></a></li>
+          <li><a class="navLinks" href="#"><i class="uil uil-shopping-bag"></i></a></li>
+        </ul>
+      </div>
+  </section>
 
-  
+  <!--* Login Section *-->
+  <section id="loginform-sect">
+    <div id="form-wrapper">
+      <div class="close-icon">
+
+        <i class="uil uil-times closeLog-btn"></i>
+      </div>
+      <div class="formBox login">
+        <form>
+          <h1 class="animation" style="--i:0">Login</h1>
+          <div class="input-box animation" style="--i:1">
+            <input type="email" id="email" required>
+            <label for="email">Email</label>
+            <i class='bx bx-envelope'></i>
+          </div>
+          <div class="input-box animation" style="--i:2">
+            <input type="password" id="password" required>
+            <label for="password">Password</label>
+            <i class='bx bx-lock-alt'></i>
+          </div>
+          <div class="remeber-box animation" style="--i:4">
+            <label for="remeber"><input type="checkbox" id="remeber"> Remember me</label>
+            <a href="#">Forgot Password?</a>
+          </div>
+          <button type="submit" class="logreg-btn animation" style="--i:3">Login</button>
+          <div class="logreg animation" style="--i:5">
+            <p>Don't have an account? <a href="#" class="register-link">Sign-Up</a></p>
+          </div>
+        </form>
+      </div>
+      <div class="formBox register">
+        <form>
+          <h1 class="animation" style="--i:0">Sign-Up</h1>
+          <div class="input-box animation" style="--i:1">
+            <input type="text" id="usern" required>
+            <label for="usern">Username</label>
+            <i class='bx bx-user'></i>
+          </div>
+          <div class="input-box animation" style="--i:1">
+            <input type="email" id="email2" required>
+            <label for="email2">Email</label>
+            <i class='bx bx-envelope'></i>
+          </div>
+
+          <div class="input-box animation" style="--i:2">
+            <input type="password" id="password2" required>
+            <label for="password2">Password</label>
+            <i class='bx bx-lock-alt'></i>
+          </div>
+          <div class="input-box animation" style="--i:2">
+            <input type="password" id="password3" required>
+            <label for="password3">Re-enter Password</label>
+            <i class='bx bx-lock-alt'></i>
+          </div>
+          <div class="remeber-box2 animation" style="--i:4">
+            <label for="remeber2"><input type="checkbox" id="remeber2"> Agree to the Terms & Conditions</label>
+          </div>
+          <button type="submit" class="logreg-btn animation" style="--i:3">Register</button>
+          <div class="logreg animation" style="--i:4">
+            <p>Already have an account? <a href="#" class="login-link">Login</a></p>
+          </div>
+        </form>
+      </div>
+    </div>
+
+  </section>
+
   <section id="banner-shopPg" class="section-p1">
     <div class="text">
       <h2>#KNOWUS</h2>
@@ -56,7 +124,12 @@
     <div class="abtImg"><img src="../Images/about2.jpeg" alt=""></div>
     <div class="abtTxt">
       <h1>Who we are?</h1>
-      <h5>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Rerum accusamus earum veritatis ad, quo animi quia sapiente reiciendis eveniet inventore recusandae saepe modi? Consequatur nemo in ratione distinctio similique labore quidem ab ducimus fuga praesentium quo nam totam, facilis sunt ex corporis delectus omnis facere quis mollitia tempora. Reprehenderit dolor animi rem impedit fugit exercitationem tempora sed magnam libero deserunt temporibus sint mollitia cumque explicabo repellat, fugiat commodi vero pariatur eius ullam aperiam iure. Repellendus harum officiis molestiae iure.</h5>
+      <h5>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Rerum accusamus earum veritatis ad, quo animi quia
+        sapiente reiciendis eveniet inventore recusandae saepe modi? Consequatur nemo in ratione distinctio similique
+        labore quidem ab ducimus fuga praesentium quo nam totam, facilis sunt ex corporis delectus omnis facere quis
+        mollitia tempora. Reprehenderit dolor animi rem impedit fugit exercitationem tempora sed magnam libero deserunt
+        temporibus sint mollitia cumque explicabo repellat, fugiat commodi vero pariatur eius ullam aperiam iure.
+        Repellendus harum officiis molestiae iure.</h5>
 
       <div class="ticker-wrap">
         <div class="ticker">
@@ -65,18 +138,18 @@
           <div class="ticker__item">Vice mlkshk crucifix beard chillwave meditation hoodie asymmetrical Helvetica.</div>
           <div class="ticker__item">Ugh PBR&B kale chips Echo Park.</div>
           <div class="ticker__item">Gluten-free mumblecore chambray mixtape food truck. </div>
-         
+
         </div>
       </div>
     </div>
   </section>
 
-   <!--* Features Section *-->
-   <section id="featureText">
+  <!--* Features Section *-->
+  <section id="featureText">
     <h2>Our Services</h2>
     <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
-   </section>
-   <section id="feature-section" class="section-p1">
+  </section>
+  <section id="feature-section" class="section-p1">
     <div class="feat-box">
       <img src="../Images/features/f1.png" alt="Free Shipping">
       <h6>Free Shipping</h6>
@@ -108,7 +181,7 @@
       <h3>Sign Up for our Newsletters</h3>
       <h5>Get e-mail updatesabout our latest shop and <span>special offers</span></h5>
     </div>
-    
+
     <div class="emailInput">
       <div class="row">
         <input type="email" placeholder="Enter your email address">
@@ -121,8 +194,8 @@
     <div class="footerInfo">
 
       <div class="footerColumn">
-          <a href="#" class="footer-logo-link"><img src="../Images/logo.png" alt=""></a>
-       
+        <a href="#" class="footer-logo-link"><img src="../Images/logo.png" alt=""></a>
+
         <div class="footerContact">
           <h5 class="headingFooter">Contact Detail</h5>
           <h5 class="descFooter"><span>Address:</span> 562 Wellington Rd., Street32, San Fransisco</h5>
@@ -137,34 +210,58 @@
             <a href=""><i class="fa-brands fa-x-twitter fa-xs"></i></a>
             <a href=""><i class='bx bxl-pinterest'></i></a>
             <a href=""><i class='bx bxl-youtube'></i></a>
-            
+
           </div>
         </div>
       </div>
       <div class="footerColumn">
         <h5 class="headingFooter">About Us</h5>
         <ul class="footerList-link">
-          <li><a href="../HTML/about.html"><h5 class="descFooter">About us</h5></a></li>
-          <li><a href="#"><h5 class="descFooter">Delivery Information</h5></a></li>
-          <li><a href="#"><h5 class="descFooter">Privacy Policy</h5></a></li>
-          <li><a href="#"><h5 class="descFooter">Terms & Conditions</h5></a></li>
-          <li><a href="../HTML/contact.html"><h5 class="descFooter">Contact us</h5></a></li>
+          <li><a href="../HTML/about.html">
+              <h5 class="descFooter">About us</h5>
+            </a></li>
+          <li><a href="#">
+              <h5 class="descFooter">Delivery Information</h5>
+            </a></li>
+          <li><a href="#">
+              <h5 class="descFooter">Privacy Policy</h5>
+            </a></li>
+          <li><a href="#">
+              <h5 class="descFooter">Terms & Conditions</h5>
+            </a></li>
+          <li><a href="../HTML/contact.html">
+              <h5 class="descFooter">Contact us</h5>
+            </a></li>
       </div>
       <div class="footerColumn">
         <h5 class="headingFooter">My Account</h5>
         <ul class="footerList-link">
-          <li><a href="#"><h5 class="descFooter">Sign In</h5></a></li>
-          <li><a href="#"><h5 class="descFooter">View Cart</h5></a></li>
-          <li><a href="#"><h5 class="descFooter">My Wishlist</h5></a></li>
-          <li><a href="#"><h5 class="descFooter">Track Order</h5></a></li>
-          <li><a href="../HTML/contact.html"><h5 class="descFooter">Help</h5></a></li>
+          <li><a href="#">
+              <h5 class="descFooter">Sign In</h5>
+            </a></li>
+          <li><a href="#">
+              <h5 class="descFooter">View Cart</h5>
+            </a></li>
+          <li><a href="#">
+              <h5 class="descFooter">My Wishlist</h5>
+            </a></li>
+          <li><a href="#">
+              <h5 class="descFooter">Track Order</h5>
+            </a></li>
+          <li><a href="../HTML/contact.html">
+              <h5 class="descFooter">Help</h5>
+            </a></li>
       </div>
       <div class="footerColumn">
         <h5 class="headingFooter">Install App</h5>
         <ul class="footerList-link">
-          <li><a href="../HTML/about.html"><h5 class="descFooter">From App Store or Google Play</h5></a></li>
+          <li><a href="../HTML/about.html">
+              <h5 class="descFooter">From App Store or Google Play</h5>
+            </a></li>
           <li><a href="#"><button class="appStore"></button> <button class="googleStore"></button></a></li>
-          <li><a href="#"><h5 class="descFooter">Secure Payment Gateways</h5></a></li>
+          <li><a href="#">
+              <h5 class="descFooter">Secure Payment Gateways</h5>
+            </a></li>
           <li><a href="#"><img src="../Images/payments.png" alt=""></a></li>
       </div>
     </div>
@@ -174,9 +271,10 @@
   </section>
 
 
-  
+
   <!-- ? Scripts -->
-   
+
   <script src="../Scripts/script.js"></script>
 </body>
+
 </html>

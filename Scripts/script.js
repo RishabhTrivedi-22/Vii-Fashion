@@ -12,11 +12,35 @@ const navItems = document.querySelectorAll("#menu-link-container li");
 const backBtn2 = d.querySelector("#productDescBox2 .backBtn");
 const loginWrapper = d.querySelector("#form-wrapper");
 const registerLink = d.querySelector(".register-link");
+const loginLink = d.querySelector(".login-link");
+const userIcon = d.querySelectorAll(".login-activebtn");
+const menuUserIcon = d.querySelector("#menu-link-container .login-activebtn");
+const closeLogIcon = d.querySelector(".close-icon");
+const loginForm = d.querySelector("#loginform-sect");
 
 
 let showMenu = true;
 menuBtn.addEventListener("click", toggleMenu);
+menuUserIcon.addEventListener("click", toggleMenu);
 
+registerLink.addEventListener("click", () => {
+	loginWrapper.classList.add('signupactive');
+});
+loginLink.addEventListener("click", () => {
+	loginWrapper.classList.remove('signupactive');
+});
+
+userIcon.forEach((btn) => {
+	btn.addEventListener("click", () => {
+		loginForm.classList.toggle("activeLogin");
+		console.log("clicked")
+	});
+});
+
+closeLogIcon.addEventListener("click", () => {
+	loginForm.classList.toggle("activeLogin");
+
+});
 
 
 productCards.forEach((card) => {
@@ -63,6 +87,3 @@ function toggleMenu() {
 }
 
 
-registerLink.addEventListener("click", () => {
-	loginWrapper.classList.add('signupactive');
-});

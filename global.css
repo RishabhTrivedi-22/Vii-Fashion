@@ -235,34 +235,69 @@ nav .logo-link {
   right: 10%;
   border: 1px solid black;
   width: 400px;
-  padding: 10px;
   backdrop-filter: blur(40px);
   border-radius: 20px;
   box-shadow: 0 0 30px rgba(0, 0, 0, 0.5);
+  z-index: 3;
+  overflow: hidden;
+  display: none;
+}
+#loginform-sect.activeLogin {
+  display: block;
 }
 
 #form-wrapper {
   position: relative;
+  width: 100%;
+  padding: 10px;
   display: flex;
   justify-content: center;
   align-items: center;
+  transition: 1s ease;
   overflow: hidden;
 }
-
-.login {
-  transform: translateX(0);
-  filter: blur(0);
-  transition: .7s ease;
+#form-wrapper.signupactive{
+  height: 650px;
 }
-#form-wrapper.signupactive .login .animation {
-  transform: translateX(-300%);
-  filter: blur(10px);
-  transition-delay: calc(.1s * var(--i));
+
+.close-icon {
+  padding: 5px;
+  background: #03958b;
+  position: absolute;
+  top: 0;
+  right: 0;
+  font-size: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-bottom-left-radius: 20px;
+  cursor: pointer;
+  z-index: 3;
 }
 
 
 .formBox {
-  width: 90%;
+  width: 100%;
+  padding: 10px;
+}
+
+#form-wrapper .formBox.login {
+  /* display: none; */
+  transition: 0.7s ease;
+  transform: translateX(0);
+}
+#form-wrapper.signupactive .formBox.login {
+  transition-delay: calc(0.1s * var(--i));
+  transform: translateX(-400px);
+}
+#form-wrapper .formBox.register {
+  position: absolute;
+  transition: none;
+  transform: translateX(400px);
+}
+#form-wrapper.signupactive .formBox.register {
+  transition: 0.7s ease;
+  transform: translateX(0);
 }
 
 .formBox form {
@@ -276,6 +311,7 @@ nav .logo-link {
   text-align: center;
   position: relative;
   margin: 10px 0;
+  color: black;
 }
 
 .formBox form h1::after {
@@ -340,6 +376,11 @@ nav .logo-link {
   justify-content: space-between;
   margin: 10px 0;
 }
+
+.remeber-box2 {
+  margin: 10px 0;
+}
+
 .remeber-box a {
   text-decoration: none;
   color: black;
@@ -378,21 +419,6 @@ nav .logo-link {
   text-decoration: underline;
 }
 
-
-.register {
-  position: absolute;
-  transform: translateX(300%);
-  filter: blur(10px);
-  transition: .7s ease;
-}
-#form-wrapper.signupactive .register {
-  position: relative;
-}
-#form-wrapper.signupactive .register .animation {
-  transform: translateX(-300%);
-  filter: blur(0);
-  transition-delay: calc(.1s * var(--i));
-}
 
 /** <-- Hero-sect Styles --> **/
 
