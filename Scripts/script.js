@@ -39,6 +39,9 @@ userIcon.forEach((btn) => {
 
 closeLogIcon.addEventListener("click", () => {
 	loginForm.classList.toggle("activeLogin");
+	if (loginWrapper.classList.contains('signupactive')){
+		loginWrapper.classList.remove('signupactive')
+	}
 
 });
 
